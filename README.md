@@ -2,7 +2,7 @@
 
 Verilog implementations of a **single-cycle MIPS CPU**, a **five-stage pipelined MIPS CPU**, and a **system-on-chip with a factorial accelerator and GPIO**.
 
-**Author: Simul Barua.** I developed this project while studying at San José State University (SJSU) in Spring 2025. This repository brings together the RTL, assembly programs, architecture documentation and verification results. Provided starter RTL is identified separately. Original snapshots are retained alongside maintained versions with documented correctness fixes and portable verification.
+**Author: Simul Barua.** This repository brings together the RTL, assembly programs, architecture documentation and verification results. Provided starter RTL is identified separately. Original snapshots are retained alongside maintained versions with documented correctness fixes and portable verification.
 
 ## Designs
 
