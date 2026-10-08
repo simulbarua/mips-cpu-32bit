@@ -4,6 +4,10 @@ A Verilog processor project with a single-cycle CPU, a five-stage pipelined CPU,
 
 **Author: Simul Barua**
 
+## C++ implementation
+
+The companion [CPU_Design repository](https://github.com/purav-sjsu/CPU_Design) contains the C++ implementation of a 32-bit single-cycle MIPS CPU, along with an assembler, emulator, and example programs for recursive factorial and Fibonacci. It provides a software implementation of the processor architecture explored here in Verilog.
+
 ## Design features
 
 - **32-bit datapath** with 32 general-purpose registers and a debug register-read port.
