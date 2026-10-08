@@ -1,0 +1,462 @@
+[
+  {
+    "file": "original/single-cycle/memfile.mem",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/memfile.mem",
+    "sha256": "efd311e2d772838df63a4b010036a9a8e4a6ea66238e89af64f0a59dfe35f984"
+  },
+  {
+    "file": "original/single-cycle/factorial.asm",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/factorial.asm",
+    "sha256": "9f71b725d280f6b7e2e5bde746728de7bf9f459f667e855610bb22b5210834ad"
+  },
+  {
+    "file": "original/single-cycle/control_unit/maindec.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/control_unit/maindec.v",
+    "sha256": "602d115941f13be881b15e115d0aea8c1d2796c2b8547ac7022dd5b8b4d849f2"
+  },
+  {
+    "file": "original/single-cycle/control_unit/controlunit.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/control_unit/controlunit.v",
+    "sha256": "1c7dee2bb0b849fc5eb10ccf488beea9b60e4b60f4cf7deebb9d40fe5b6ed339"
+  },
+  {
+    "file": "original/single-cycle/control_unit/auxdec.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/control_unit/auxdec.v",
+    "sha256": "dacdc368f05329dd26d6027efa775c2199d1c6c2be85af27ac22f2de52319982"
+  },
+  {
+    "file": "original/single-cycle/memory/dmem.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/memory/dmem.v",
+    "sha256": "0372cb8c4a5eb3216f0a6659d99874db00418e8d1a9e34747e25af747bc83dd5"
+  },
+  {
+    "file": "original/single-cycle/memory/imem.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/memory/imem.v",
+    "sha256": "fb9e00d251144f40a493db1b66ae6e50b6c390ba6f153961ae4311ac16a4d6de"
+  },
+  {
+    "file": "original/single-cycle/mips/mips_top.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/mips/mips_top.v",
+    "sha256": "789a05c87fdf8d19c5f48fe540a4bbf3c974f0854c57dbede39a71aa86bddda4"
+  },
+  {
+    "file": "original/single-cycle/mips/mips.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/mips/mips.v",
+    "sha256": "903629d2efaa0d33fa6021a32cc80cc515449be59fdd86fef4702ac9604b9dd8"
+  },
+  {
+    "file": "original/single-cycle/testbench/tb_mips_top.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/testbench/tb_mips_top.v",
+    "sha256": "276a286ec180407c7e7c7c57d0dabc04a5131a0c9c9d5f614795b77a0ec23ea9"
+  },
+  {
+    "file": "original/single-cycle/datapath/signext.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/signext.v",
+    "sha256": "c4a9de65e91c70a99c89d656369d590de49a7a8e202d5a6952dd1620bb1ff1c4"
+  },
+  {
+    "file": "original/single-cycle/datapath/adder.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/adder.v",
+    "sha256": "e460b023b65667a0580a01f8dca9c6923ba815f3ae3d74d794b01eeae8b9a935"
+  },
+  {
+    "file": "original/single-cycle/datapath/alu.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/alu.v",
+    "sha256": "4124d7db565ed98fb2a9415e878b403dc83d711a2d69ddd6911aaa94f0831cc8"
+  },
+  {
+    "file": "original/single-cycle/datapath/multiplier.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/multiplier.v",
+    "sha256": "0b7bfb4b0e7a2cc4f85a2eca3a6ab14d55f28290295bb5e031d2f693938c57b6"
+  },
+  {
+    "file": "original/single-cycle/datapath/mux2.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/mux2.v",
+    "sha256": "b777884c7e3d7ab4391d1061ced409d00e61a4302f0fc305390a2a7ef3e4aed8"
+  },
+  {
+    "file": "original/single-cycle/datapath/regfile.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/regfile.v",
+    "sha256": "8eff359ecd56bb879f1c46b581112ded51a3f8e90eca35bdced83abf694a8f21"
+  },
+  {
+    "file": "original/single-cycle/datapath/mult_reg.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/mult_reg.v",
+    "sha256": "4bb9bc56e8a5e89d17e5841d41ba643abcb2e490ca4bdcb2d8262bbf5128ee83"
+  },
+  {
+    "file": "original/single-cycle/datapath/dreg.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/dreg.v",
+    "sha256": "370c30c031d59e0af612e23ae3dadee8c2c1f7db852567ec4136addc974bb713"
+  },
+  {
+    "file": "original/single-cycle/datapath/datapath.v",
+    "source": "Assignment6/VerilogFiles/single_cycle_mips_source_final/datapath/datapath.v",
+    "sha256": "af234c5e5e59c2369bbe41d5e245cb0f2a46ed713b834b88ea8fc8f8d707d2fb"
+  },
+  {
+    "file": "original/pipeline/control_unit/maindec.v",
+    "source": "Assignment7/pipeline_mips/control_unit/maindec.v",
+    "sha256": "602d115941f13be881b15e115d0aea8c1d2796c2b8547ac7022dd5b8b4d849f2"
+  },
+  {
+    "file": "original/pipeline/control_unit/controlunit.v",
+    "source": "Assignment7/pipeline_mips/control_unit/controlunit.v",
+    "sha256": "707f22618ce32111bc92da9cc643acbc47b32c8f9c3507ddc877d4873447c61c"
+  },
+  {
+    "file": "original/pipeline/control_unit/auxdec.v",
+    "source": "Assignment7/pipeline_mips/control_unit/auxdec.v",
+    "sha256": "cffaa52140fbe1e6d57aa2efdb46da6436b7ad743a0d6776d18c8ec12b8d745f"
+  },
+  {
+    "file": "original/pipeline/memory/dmem.v",
+    "source": "Assignment7/pipeline_mips/memory/dmem.v",
+    "sha256": "e984fd787aa732bdd667a5943b818bed85420ea7280106db2983c5a2614ed736"
+  },
+  {
+    "file": "original/pipeline/memory/imem.v",
+    "source": "Assignment7/pipeline_mips/memory/imem.v",
+    "sha256": "fb9e00d251144f40a493db1b66ae6e50b6c390ba6f153961ae4311ac16a4d6de"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/signext.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/signext.v",
+    "sha256": "c4a9de65e91c70a99c89d656369d590de49a7a8e202d5a6952dd1620bb1ff1c4"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/mux4.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/mux4.v",
+    "sha256": "0f4000cfc1ced921f5661fe404a4d9ba9538f6294756499ba20631b13694ba3d"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/adder.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/adder.v",
+    "sha256": "e460b023b65667a0580a01f8dca9c6923ba815f3ae3d74d794b01eeae8b9a935"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/pipeline_mips.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/pipeline_mips.v",
+    "sha256": "b118bc5f57f2ea4ea7ad3e2d5ff5e05e7bbc74d91be065b13f6eae942e7730a5"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/alu.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/alu.v",
+    "sha256": "4124d7db565ed98fb2a9415e878b403dc83d711a2d69ddd6911aaa94f0831cc8"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/multiplier.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/multiplier.v",
+    "sha256": "0b7bfb4b0e7a2cc4f85a2eca3a6ab14d55f28290295bb5e031d2f693938c57b6"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/if_id_regfile.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/if_id_regfile.v",
+    "sha256": "11ca4d8bd9343da8baf671698758725ef0719b7f0d0fd591daed1a741e4bfb75"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/mux2.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/mux2.v",
+    "sha256": "b777884c7e3d7ab4391d1061ced409d00e61a4302f0fc305390a2a7ef3e4aed8"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/id_ex_regfile.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/id_ex_regfile.v",
+    "sha256": "cce442d2d8b72a58676d26de69f7b784c2a5a470bdb1dcb25865df893a6a5b8d"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/mem_wb_regfile.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/mem_wb_regfile.v",
+    "sha256": "9aaf51f18c83fed45dad674b6db13e732d76fb1226dc85f7858d140e14625567"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/regfile.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/regfile.v",
+    "sha256": "96dfd370e7c5a05e3948141fe9f7c81adff65bdc684868116b7682b741f91824"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/mult_reg.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/mult_reg.v",
+    "sha256": "77d8361776b39fbdf4224e5f75de12136a0a1a5c9f4ac7349f85633d29a3182c"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/dreg.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/dreg.v",
+    "sha256": "bed8179890620f2ae97070acf95979fd5efb09c4e04c7ec7c2a3c2975cdb9e97"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/hazard_unit.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/hazard_unit.v",
+    "sha256": "05eb01695ac4ec1aa33fb60e0cf2fcb73065424f4a9fa3e4b7b3e5da73001750"
+  },
+  {
+    "file": "original/pipeline/pipeline_mips/ex_mem_regfile.v",
+    "source": "Assignment7/pipeline_mips/pipeline_mips/ex_mem_regfile.v",
+    "sha256": "afccdb79e60ae147f92098fe83335de9ae86c90148d7840066b6c2d9edcb7754"
+  },
+  {
+    "file": "original/pipeline/testbench/tb_mips_top.v",
+    "source": "Assignment7/pipeline_mips/testbench/tb_mips_top.v",
+    "sha256": "8cce633710455dfc869b0c8708db233f92dd7f929dbc2d0b211d43ad858dbc69"
+  },
+  {
+    "file": "original/pipeline/mips_top/mips_top.v",
+    "source": "Assignment7/pipeline_mips/mips_top/mips_top.v",
+    "sha256": "2f11529e5689574b1ca8553dc9fd55abdebf226cf7305142e119601fab1f760b"
+  },
+  {
+    "file": "original/soc/memfile.mem",
+    "source": "Assignment7/soc_design_files/memfile.mem",
+    "sha256": "b4aacaf735e2de649338244d35206fed4f47c207c748095ac93212cb5acdfb73"
+  },
+  {
+    "file": "original/soc/control_unit/maindec.v",
+    "source": "Assignment7/soc_design_files/control_unit/maindec.v",
+    "sha256": "602d115941f13be881b15e115d0aea8c1d2796c2b8547ac7022dd5b8b4d849f2"
+  },
+  {
+    "file": "original/soc/control_unit/controlunit.v",
+    "source": "Assignment7/soc_design_files/control_unit/controlunit.v",
+    "sha256": "707f22618ce32111bc92da9cc643acbc47b32c8f9c3507ddc877d4873447c61c"
+  },
+  {
+    "file": "original/soc/control_unit/auxdec.v",
+    "source": "Assignment7/soc_design_files/control_unit/auxdec.v",
+    "sha256": "cffaa52140fbe1e6d57aa2efdb46da6436b7ad743a0d6776d18c8ec12b8d745f"
+  },
+  {
+    "file": "original/soc/memory/dmem.v",
+    "source": "Assignment7/soc_design_files/memory/dmem.v",
+    "sha256": "e984fd787aa732bdd667a5943b818bed85420ea7280106db2983c5a2614ed736"
+  },
+  {
+    "file": "original/soc/memory/imem.v",
+    "source": "Assignment7/soc_design_files/memory/imem.v",
+    "sha256": "fb9e00d251144f40a493db1b66ae6e50b6c390ba6f153961ae4311ac16a4d6de"
+  },
+  {
+    "file": "original/soc/gpio_top/gpio_top.v",
+    "source": "Assignment7/soc_design_files/gpio_top/gpio_top.v",
+    "sha256": "b9e16219330706c6e8efab8ac8ecb218dee334bdcfeb63a830bf9c1018e36f4c"
+  },
+  {
+    "file": "original/soc/gpio_top/gpio_ad.v",
+    "source": "Assignment7/soc_design_files/gpio_top/gpio_ad.v",
+    "sha256": "ebeabe24f1fc09cbd742edff6a67ba1d6a68fc1f7f48938a73b82fa8d3a3e903"
+  },
+  {
+    "file": "original/soc/soc_top/soc_top.v",
+    "source": "Assignment7/soc_design_files/soc_top/soc_top.v",
+    "sha256": "9ffec31c1a8e8fb6252bccf25217f585db65e80012e8d7d9ad02c35b1258a172"
+  },
+  {
+    "file": "original/soc/soc_top/soc_ad.v",
+    "source": "Assignment7/soc_design_files/soc_top/soc_ad.v",
+    "sha256": "90f9a6199116a040cd24090ffd52b2d348b964db218b5a501ccf9fbf6c74dff1"
+  },
+  {
+    "file": "original/soc/factorial_accelerator/fact.v",
+    "source": "Assignment7/soc_design_files/factorial_accelerator/fact.v",
+    "sha256": "b1b10cae204c77be53849f3595bd0c10159f0102fa6b93cc20f3b28e481f4ae5"
+  },
+  {
+    "file": "original/soc/factorial_accelerator/fact_reg.v",
+    "source": "Assignment7/soc_design_files/factorial_accelerator/fact_reg.v",
+    "sha256": "10d700457b68b0e0d87ced52bcfe29c9d2cda777530e782bea11f97c51c15ee2"
+  },
+  {
+    "file": "original/soc/factorial_accelerator/fact_ad.v",
+    "source": "Assignment7/soc_design_files/factorial_accelerator/fact_ad.v",
+    "sha256": "d01d4dbed42a98bec66c568c734441f28b7c0977bde73973fb69ce3d5a117471"
+  },
+  {
+    "file": "original/soc/factorial_accelerator/fact_top.v",
+    "source": "Assignment7/soc_design_files/factorial_accelerator/fact_top.v",
+    "sha256": "60e79cc176b1ae2920cbbd7bb68c6931ec9d811fb397c8ac8fd5c48346e89376"
+  },
+  {
+    "file": "original/soc/pipeline_mips/signext.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/signext.v",
+    "sha256": "c4a9de65e91c70a99c89d656369d590de49a7a8e202d5a6952dd1620bb1ff1c4"
+  },
+  {
+    "file": "original/soc/pipeline_mips/mux4.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/mux4.v",
+    "sha256": "0f4000cfc1ced921f5661fe404a4d9ba9538f6294756499ba20631b13694ba3d"
+  },
+  {
+    "file": "original/soc/pipeline_mips/adder.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/adder.v",
+    "sha256": "e460b023b65667a0580a01f8dca9c6923ba815f3ae3d74d794b01eeae8b9a935"
+  },
+  {
+    "file": "original/soc/pipeline_mips/pipeline_mips.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/pipeline_mips.v",
+    "sha256": "bf308d5a0391c252988353ea3070dead2b3c5ae7a96b6ffddac9be34b9ebab78"
+  },
+  {
+    "file": "original/soc/pipeline_mips/alu.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/alu.v",
+    "sha256": "4124d7db565ed98fb2a9415e878b403dc83d711a2d69ddd6911aaa94f0831cc8"
+  },
+  {
+    "file": "original/soc/pipeline_mips/multiplier.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/multiplier.v",
+    "sha256": "0b7bfb4b0e7a2cc4f85a2eca3a6ab14d55f28290295bb5e031d2f693938c57b6"
+  },
+  {
+    "file": "original/soc/pipeline_mips/if_id_regfile.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/if_id_regfile.v",
+    "sha256": "11ca4d8bd9343da8baf671698758725ef0719b7f0d0fd591daed1a741e4bfb75"
+  },
+  {
+    "file": "original/soc/pipeline_mips/mux2.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/mux2.v",
+    "sha256": "b777884c7e3d7ab4391d1061ced409d00e61a4302f0fc305390a2a7ef3e4aed8"
+  },
+  {
+    "file": "original/soc/pipeline_mips/id_ex_regfile.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/id_ex_regfile.v",
+    "sha256": "cce442d2d8b72a58676d26de69f7b784c2a5a470bdb1dcb25865df893a6a5b8d"
+  },
+  {
+    "file": "original/soc/pipeline_mips/mem_wb_regfile.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/mem_wb_regfile.v",
+    "sha256": "2a33c5815d9b498fcb27de5531aa40e5e038df45f1d392a84f55a25bf7a36858"
+  },
+  {
+    "file": "original/soc/pipeline_mips/regfile.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/regfile.v",
+    "sha256": "96dfd370e7c5a05e3948141fe9f7c81adff65bdc684868116b7682b741f91824"
+  },
+  {
+    "file": "original/soc/pipeline_mips/mult_reg.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/mult_reg.v",
+    "sha256": "77d8361776b39fbdf4224e5f75de12136a0a1a5c9f4ac7349f85633d29a3182c"
+  },
+  {
+    "file": "original/soc/pipeline_mips/dreg.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/dreg.v",
+    "sha256": "bed8179890620f2ae97070acf95979fd5efb09c4e04c7ec7c2a3c2975cdb9e97"
+  },
+  {
+    "file": "original/soc/pipeline_mips/hazard_unit.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/hazard_unit.v",
+    "sha256": "05eb01695ac4ec1aa33fb60e0cf2fcb73065424f4a9fa3e4b7b3e5da73001750"
+  },
+  {
+    "file": "original/soc/pipeline_mips/ex_mem_regfile.v",
+    "source": "Assignment7/soc_design_files/pipeline_mips/ex_mem_regfile.v",
+    "sha256": "afccdb79e60ae147f92098fe83335de9ae86c90148d7840066b6c2d9edcb7754"
+  },
+  {
+    "file": "original/soc/testbench/tb_mips_top.v",
+    "source": "Assignment7/soc_design_files/testbench/tb_mips_top.v",
+    "sha256": "9d0356b5938ded1f7cb23ae660e787477aaf6b625f6d4610bf344f8c80b4a6f0"
+  },
+  {
+    "file": "original/baseline/memfile.mem",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/memfile.mem",
+    "sha256": "e6da18ded1e3c4276113fa0e2ff78e9167441a4dcf7c675a2d810d444ea549bb"
+  },
+  {
+    "file": "original/baseline/memfile.dat",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/memfile.dat",
+    "sha256": "e6da18ded1e3c4276113fa0e2ff78e9167441a4dcf7c675a2d810d444ea549bb"
+  },
+  {
+    "file": "original/baseline/control_unit/maindec.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/control_unit/maindec.v",
+    "sha256": "d9e1f7d0c181055da86f8646c9ce052498203ade067dc7d934d41c93b0adda1a"
+  },
+  {
+    "file": "original/baseline/control_unit/controlunit.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/control_unit/controlunit.v",
+    "sha256": "66bdaf6b7e59fa12ddf1a7224291f1d75776b15d607974fcea05eb7d74d49643"
+  },
+  {
+    "file": "original/baseline/control_unit/auxdec.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/control_unit/auxdec.v",
+    "sha256": "bb3a820a0cedeca742e052e07707bfc7d0ff40bb19ba00569c52af9cb0e2df55"
+  },
+  {
+    "file": "original/baseline/memory/dmem.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/memory/dmem.v",
+    "sha256": "abb293086adf7a0baea963329a76d1a1f8e27627e8d579e99041cef564a2f342"
+  },
+  {
+    "file": "original/baseline/memory/imem.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/memory/imem.v",
+    "sha256": "f99849e568c67c80e03f881028f45892a47c6c487667084ebf24bd6f6637fdfa"
+  },
+  {
+    "file": "original/baseline/mips/mips_top.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/mips/mips_top.v",
+    "sha256": "85049a981353d28e89579560bd794cb9edd7a149ec1ac0c8c6305a01bee18d40"
+  },
+  {
+    "file": "original/baseline/mips/mips.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/mips/mips.v",
+    "sha256": "a51eedf357138bf2eb6e44e51a7ef14a053961bf13ec293260bbc9436240f842"
+  },
+  {
+    "file": "original/baseline/testbench/tb_mips_top.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/testbench/tb_mips_top.v",
+    "sha256": "b34a92250b02d6db9b6482168283e2b3c2ba03d6509cd7b7ccaafe36759c257f"
+  },
+  {
+    "file": "original/baseline/datapath/signext.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/signext.v",
+    "sha256": "c4a9de65e91c70a99c89d656369d590de49a7a8e202d5a6952dd1620bb1ff1c4"
+  },
+  {
+    "file": "original/baseline/datapath/adder.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/adder.v",
+    "sha256": "e460b023b65667a0580a01f8dca9c6923ba815f3ae3d74d794b01eeae8b9a935"
+  },
+  {
+    "file": "original/baseline/datapath/alu.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/alu.v",
+    "sha256": "20b0bf8166eb9ec1eb03d615a11893eaa3222617149fed61fa45598977049706"
+  },
+  {
+    "file": "original/baseline/datapath/mux2.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/mux2.v",
+    "sha256": "b777884c7e3d7ab4391d1061ced409d00e61a4302f0fc305390a2a7ef3e4aed8"
+  },
+  {
+    "file": "original/baseline/datapath/regfile.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/regfile.v",
+    "sha256": "5e2e530356aa07b721006eff4a8cecf7c831b5e31df4c70dd4cd3ee41a6d7c14"
+  },
+  {
+    "file": "original/baseline/datapath/dreg.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/dreg.v",
+    "sha256": "370c30c031d59e0af612e23ae3dadee8c2c1f7db852567ec4136addc974bb713"
+  },
+  {
+    "file": "original/baseline/datapath/datapath.v",
+    "source": "Assignment5/Assignment5_processor_design_1/single_cycle_mips_source_initial/datapath/datapath.v",
+    "sha256": "a08a38993b95276fe5ddc75f14e5d79f49fa30d503cc3b593ac4cd301627faeb"
+  },
+  {
+    "file": "programs/Assignment2/mipstest.asm",
+    "source": "Assignment2/mipstest.asm",
+    "sha256": "a869f994f78890368552132adef467c9036108d167f4df28f9385a27dfe57d65"
+  },
+  {
+    "file": "programs/Assignment3/factorial.asm",
+    "source": "Assignment3/factorial.asm",
+    "sha256": "67b07e005e5e3943d31b342b9054206281717db262ea9bef6d931a7bdbdfe503"
+  },
+  {
+    "file": "programs/Assignment3/mips1.asm",
+    "source": "Assignment3/mips1.asm",
+    "sha256": "54a518c5bc7486cdc0ce887c3866428f073ac0c8fc86b2edf718ef1b84197df4"
+  },
+  {
+    "file": "programs/Assignment4/lab4.asm",
+    "source": "Assignment4/lab4.asm",
+    "sha256": "79d7293c09161197e46b5d6d4f5ca16d22948db2f1b53c2a9e458e781ad1d36a"
+  }
+]

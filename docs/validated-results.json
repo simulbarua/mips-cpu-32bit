@@ -1,0 +1,264 @@
+{
+  "verification": "Icarus Verilog; maintained copies; 60 checks passed",
+  "factorial_results": {
+    "single-cycle": [
+      {
+        "n": 0,
+        "expected": 1,
+        "result": "pass",
+        "cycles": 16
+      },
+      {
+        "n": 1,
+        "expected": 1,
+        "result": "pass",
+        "cycles": 16
+      },
+      {
+        "n": 2,
+        "expected": 2,
+        "result": "pass",
+        "cycles": 30
+      },
+      {
+        "n": 3,
+        "expected": 6,
+        "result": "pass",
+        "cycles": 44
+      },
+      {
+        "n": 4,
+        "expected": 24,
+        "result": "pass",
+        "cycles": 58
+      },
+      {
+        "n": 5,
+        "expected": 120,
+        "result": "pass",
+        "cycles": 72
+      },
+      {
+        "n": 6,
+        "expected": 720,
+        "result": "pass",
+        "cycles": 86
+      },
+      {
+        "n": 7,
+        "expected": 5040,
+        "result": "pass",
+        "cycles": 100
+      },
+      {
+        "n": 8,
+        "expected": 40320,
+        "result": "pass",
+        "cycles": 114
+      },
+      {
+        "n": 9,
+        "expected": 362880,
+        "result": "pass",
+        "cycles": 128
+      },
+      {
+        "n": 10,
+        "expected": 3628800,
+        "result": "pass",
+        "cycles": 142
+      },
+      {
+        "n": 11,
+        "expected": 39916800,
+        "result": "pass",
+        "cycles": 156
+      },
+      {
+        "n": 12,
+        "expected": 479001600,
+        "result": "pass",
+        "cycles": 170
+      }
+    ],
+    "pipeline": [
+      {
+        "n": 0,
+        "expected": 1,
+        "result": "pass",
+        "cycles": 20
+      },
+      {
+        "n": 1,
+        "expected": 1,
+        "result": "pass",
+        "cycles": 20
+      },
+      {
+        "n": 2,
+        "expected": 2,
+        "result": "pass",
+        "cycles": 38
+      },
+      {
+        "n": 3,
+        "expected": 6,
+        "result": "pass",
+        "cycles": 56
+      },
+      {
+        "n": 4,
+        "expected": 24,
+        "result": "pass",
+        "cycles": 74
+      },
+      {
+        "n": 5,
+        "expected": 120,
+        "result": "pass",
+        "cycles": 92
+      },
+      {
+        "n": 6,
+        "expected": 720,
+        "result": "pass",
+        "cycles": 110
+      },
+      {
+        "n": 7,
+        "expected": 5040,
+        "result": "pass",
+        "cycles": 128
+      },
+      {
+        "n": 8,
+        "expected": 40320,
+        "result": "pass",
+        "cycles": 146
+      },
+      {
+        "n": 9,
+        "expected": 362880,
+        "result": "pass",
+        "cycles": 164
+      },
+      {
+        "n": 10,
+        "expected": 3628800,
+        "result": "pass",
+        "cycles": 182
+      },
+      {
+        "n": 11,
+        "expected": 39916800,
+        "result": "pass",
+        "cycles": 200
+      },
+      {
+        "n": 12,
+        "expected": 479001600,
+        "result": "pass",
+        "cycles": 218
+      }
+    ],
+    "soc": [
+      {
+        "n": 0,
+        "expected": 1,
+        "result": "pass",
+        "cycles": 28
+      },
+      {
+        "n": 1,
+        "expected": 1,
+        "result": "pass",
+        "cycles": 28
+      },
+      {
+        "n": 2,
+        "expected": 2,
+        "result": "pass",
+        "cycles": 28
+      },
+      {
+        "n": 3,
+        "expected": 6,
+        "result": "pass",
+        "cycles": 33
+      },
+      {
+        "n": 4,
+        "expected": 24,
+        "result": "pass",
+        "cycles": 33
+      },
+      {
+        "n": 5,
+        "expected": 120,
+        "result": "pass",
+        "cycles": 33
+      },
+      {
+        "n": 6,
+        "expected": 720,
+        "result": "pass",
+        "cycles": 33
+      },
+      {
+        "n": 7,
+        "expected": 5040,
+        "result": "pass",
+        "cycles": 33
+      },
+      {
+        "n": 8,
+        "expected": 40320,
+        "result": "pass",
+        "cycles": 38
+      },
+      {
+        "n": 9,
+        "expected": 362880,
+        "result": "pass",
+        "cycles": 38
+      },
+      {
+        "n": 10,
+        "expected": 3628800,
+        "result": "pass",
+        "cycles": 38
+      },
+      {
+        "n": 11,
+        "expected": 39916800,
+        "result": "pass",
+        "cycles": 38
+      },
+      {
+        "n": 12,
+        "expected": 479001600,
+        "result": "pass",
+        "cycles": 38
+      },
+      {
+        "n": 13,
+        "expected": 0,
+        "result": "pass",
+        "cycles": 28
+      },
+      {
+        "n": 14,
+        "expected": 0,
+        "result": "pass",
+        "cycles": 28
+      },
+      {
+        "n": 15,
+        "expected": 0,
+        "result": "pass",
+        "cycles": 28
+      }
+    ]
+  },
+  "directed_tests_per_cpu": 9
+}

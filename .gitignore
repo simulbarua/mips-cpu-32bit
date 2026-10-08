@@ -1,0 +1,10 @@
+build/
+__pycache__/
+*.vvp
+*.vcd
+.DS_Store
+Thumbs.db
+*.jou
+*.log
+*.str
+.Xil/
