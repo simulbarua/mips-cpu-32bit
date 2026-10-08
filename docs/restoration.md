@@ -15,7 +15,7 @@ The files in `original/` preserve the recovered source bytes. `docs/source-manif
 | `jr` after load | EX dependency covered, MEM load dependency omitted | MEM load dependency also stalls |
 | ALU sensitivity | Shift amount excluded from sensitivity list | Combinational `always @ (*)` |
 | `slt` | Unsigned comparison | Signed comparison |
-| Verification | Unbounded or observational course testbenches | Bounded assertions against reference outputs |
+| Verification | Unbounded or observational original testbenches | Bounded assertions against reference outputs |
 
 The maintained standalone pipeline uses the final CPU from the recovered SoC snapshot, together with instruction/data memory and a new verification wrapper. Its ROM program is the enhanced single-cycle factorial program. The earlier standalone implementation remains available separately.
 

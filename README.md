@@ -1,8 +1,8 @@
-# MIPS CPU Architecture — SJSU CMPE 200
+# MIPS CPU Architecture
 
-Verilog implementations of a **single-cycle MIPS CPU**, a **five-stage pipelined MIPS CPU**, and a **system-on-chip with a factorial accelerator and GPIO**, developed during Spring 2025 at San José State University.
+Verilog implementations of a **single-cycle MIPS CPU**, a **five-stage pipelined MIPS CPU**, and a **system-on-chip with a factorial accelerator and GPIO**.
 
-**Author: Simul Barua.** This repository reconstructs the project from the saved RTL, assembly programs, and assignment reports. Course-provided starter RTL is identified separately. Original snapshots are retained alongside maintained versions with documented correctness fixes and portable verification.
+**Author: Simul Barua.** I developed this project while studying at San José State University (SJSU) in Spring 2025. This repository brings together the RTL, assembly programs, architecture documentation and verification results. Provided starter RTL is identified separately. Original snapshots are retained alongside maintained versions with documented correctness fixes and portable verification.
 
 ## Designs
 
@@ -66,4 +66,4 @@ Cycle count alone does not establish elapsed-time speedup: the reports do not su
 - [Report benchmark data](docs/report-cycle-counts.csv)
 - [Source manifest with SHA-256 hashes](docs/source-manifest.json)
 
-Original reports, student identifiers, administrative documents and tool-generated project caches are omitted. No open-source license is asserted for course starter material.
+Original reports, student identifiers, administrative documents and tool-generated project caches are omitted. No open-source license is asserted for provided starter material.

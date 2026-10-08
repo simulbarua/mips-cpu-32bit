@@ -1,8 +1,8 @@
-# Assignment analysis
+# Project development and source analysis
 
 ## Evidence and interpretation
 
-This analysis uses the user's technical reports as historical evidence and the recovered RTL as implementation evidence. Assignment handouts describe requirements; they do not establish that a feature was implemented or verified. Report claims are distinguished from current simulation results. The original reports remain in the user's course folder and are not uploaded.
+This analysis uses the project reports as historical evidence and the recovered RTL as implementation evidence. Assignment handouts describe requirements; they do not establish that a feature was implemented or verified. Report claims are distinguished from current simulation results. The original reports remain in the local source archive and are not uploaded.
 
 | Assignment | Report evidence | Work represented |
 |---|---|---|
