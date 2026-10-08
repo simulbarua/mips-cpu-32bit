@@ -37,19 +37,28 @@ Do not compile every Verilog file in this repository together: the independent v
 
 ## Architecture
 
-```mermaid
-flowchart LR
-  IF["IF: PC and instruction fetch"] --> ID["ID: decode, registers, branch/jump"]
-  ID --> EX["EX: ALU, multiplier, HI/LO"]
-  EX --> MEM["MEM: RAM or peripheral access"]
-  MEM --> WB["WB: register writeback"]
-  MEM -. forwarding .-> ID
-  MEM -. forwarding .-> EX
-  WB -. forwarding .-> EX
-  H[Hazard unit] -. stall and flush .-> IF
-  H -. stall and flush .-> ID
-  H -. bubble .-> EX
-```
+These are the original project drawings, preserved with their original labels and wiring. Click an image to inspect it at full resolution. The [diagram gallery](docs/diagrams/README.md) includes the baseline and enhanced versions, supporting block diagrams, and editable Draw.io sources.
+
+### Baseline single-cycle datapath
+
+[![Baseline single-cycle datapath](docs/diagrams/baseline/datapath.jpg)](docs/diagrams/baseline/datapath.jpg)
+
+### Enhanced single-cycle datapath
+
+Blue connections highlight the added multiplication, HI/LO, shift and jump/link paths.
+
+[![Enhanced single-cycle datapath](docs/diagrams/single-cycle/datapath.png)](docs/diagrams/single-cycle/datapath.png)
+
+### Five-stage pipelined CPU
+
+[![Five-stage pipelined MIPS architecture](docs/diagrams/pipeline/pipeline.jpg)](docs/diagrams/pipeline/pipeline.jpg)
+
+### System-on-chip
+
+[![MIPS SoC with factorial accelerator and GPIO](docs/diagrams/soc/soc_top.jpg)](docs/diagrams/soc/soc_top.jpg)
+
+The drawings document the original designs. Later RTL corrections are listed in [restoration notes](docs/restoration.md).
+
 
 Supported CPU instructions: `add`, `sub`, `and`, `or`, `slt`, `addi`, `lw`, `sw`, `beq`, `j`, `jal`, `jr`, `sll`, `srl`, `multu`, `mfhi`, `mflo`. This is an educational MIPS subset with `PC+4` link addresses and no architectural delay slots. It does not implement the complete MIPS ISA or exception behavior.
 

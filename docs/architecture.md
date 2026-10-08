@@ -2,11 +2,19 @@
 
 ## Single-cycle CPU
 
+![Enhanced single-cycle datapath](diagrams/single-cycle/datapath.png)
+
+[Baseline datapath](diagrams/baseline/datapath.jpg) · [Editable enhanced drawing](diagrams/single-cycle/datapath.drawio)
+
 `mips_top` integrates `mips`, instruction ROM and data RAM. `mips` joins the control unit and datapath. A debug read port selects a general-purpose register without changing normal instruction operands.
 
 The datapath computes PC+4, branch target and jump target, reads two register operands, selects the ALU's register/immediate input, and selects ALU or memory data for register writeback. `jal` writes PC+4 to register 31. `jr` selects the first register operand as next PC. `multu` writes a 64-bit unsigned product into HI/LO; `mfhi` and `mflo` select the corresponding half for writeback.
 
 ## Five-stage pipeline
+
+![Original five-stage pipeline drawing](diagrams/pipeline/pipeline.jpg)
+
+[Editable drawing](diagrams/pipeline/pipeline.drawio) · [Alternate saved drawing](diagrams/pipeline/pipeline-alternate.drawio)
 
 | Stage | Work | Register boundary |
 |---|---|---|
@@ -21,6 +29,8 @@ The register file bypasses the current WB data to simultaneous ID reads. EX oper
 Branches are compared in ID using full 32-bit operands, with MEM forwarding. Register jumps use that same forwarded first operand. Load-use and branch/register-jump dependencies stall PC and IF/ID, and insert a bubble into ID/EX. A control transfer flushes IF/ID only when decode can advance. Taken branches flush the sequentially fetched instruction.
 
 ## SoC address map
+
+![Original SoC block diagram](diagrams/soc/soc_top.jpg)
 
 | Byte address | Register | Behavior |
 |---|---|---|

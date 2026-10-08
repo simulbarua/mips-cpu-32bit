@@ -458,5 +458,125 @@
     "file": "programs/Assignment4/lab4.asm",
     "source": "Assignment4/lab4.asm",
     "sha256": "79d7293c09161197e46b5d6d4f5ca16d22948db2f1b53c2a9e458e781ad1d36a"
+  },
+  {
+    "file": "docs/diagrams/baseline/datapath.jpg",
+    "source": "Assignment5/Assets/datapath.jpg",
+    "sha256": "f9db04c240efec541bb162e9ede1c1a7402a02c3da55005d2fad80374adcf9d5"
+  },
+  {
+    "file": "docs/diagrams/baseline/datapath.drawio",
+    "source": "Assignment5/Assets/datapath.drawio",
+    "sha256": "73d8a7a0db04dd5469dc87cd2a9cad46556647207938d916b6d4ebe11a6f6290"
+  },
+  {
+    "file": "docs/diagrams/baseline/mips.jpg",
+    "source": "Assignment5/Assets/mips.jpg",
+    "sha256": "bff336373e5cad87460109f38dcd81dc617cfd6c039738063f663dfca2abee2c"
+  },
+  {
+    "file": "docs/diagrams/baseline/mips.drawio",
+    "source": "Assignment5/Assets/mips.drawio",
+    "sha256": "68f93af3a18520a0bd7c19ace39486172ac504fcb44cca2a787217f70f209cb5"
+  },
+  {
+    "file": "docs/diagrams/baseline/mips_top.jpg",
+    "source": "Assignment5/Assets/mips_top.jpg",
+    "sha256": "10d38efd6f0251e8b208fb7e9dbd244bc09444a840a0c886f8053d7c05a5c578"
+  },
+  {
+    "file": "docs/diagrams/baseline/mips_top.drawio",
+    "source": "Assignment5/Assets/mips_top.drawio",
+    "sha256": "e632dfed12940a2e1bffdc3018365d42b017aaefddf17b77886cfe94405d4af7"
+  },
+  {
+    "file": "docs/diagrams/baseline/CU.jpg",
+    "source": "Assignment5/Assets/CU.jpg",
+    "sha256": "c12fdb949859105ff027f8f3e0f80bfbc99ec6e8aa970e9c2d4afb159051b968"
+  },
+  {
+    "file": "docs/diagrams/baseline/CU.drawio",
+    "source": "Assignment5/Assets/CU.drawio",
+    "sha256": "eff23db88b1f3dd601afd6611802b342bb95dbcbe7783a5b446cf55aacff021f"
+  },
+  {
+    "file": "docs/diagrams/baseline/imem.jpg",
+    "source": "Assignment5/Assets/imem.jpg",
+    "sha256": "aeb69e6e752ce108902003a504fd276587c035c0f1d2f028af5b437c9bf34523"
+  },
+  {
+    "file": "docs/diagrams/baseline/imem.drawio",
+    "source": "Assignment5/Assets/imem.drawio",
+    "sha256": "b950b156d108ad5b166b5be49ef661db9ffc35f454c9f5b9d28950bbd21d5edc"
+  },
+  {
+    "file": "docs/diagrams/baseline/dmem.jpg",
+    "source": "Assignment5/Assets/dmem.jpg",
+    "sha256": "18531446fc303299da29f02d957702400ed2d6ee10025a78d9b1952423637ac4"
+  },
+  {
+    "file": "docs/diagrams/baseline/dmem.drawio",
+    "source": "Assignment5/Assets/dmem.drawio",
+    "sha256": "2d9a41a5073d0a60523008ded6f2d9e237111110d55706386d843221bf8ac32f"
+  },
+  {
+    "file": "docs/diagrams/single-cycle/datapath.png",
+    "source": "Assignment6/Assets/datapath.png",
+    "sha256": "b71a680caa07fff29795d037347ddbc3f5da49fb8d77b64da3d9381dc930a4bf"
+  },
+  {
+    "file": "docs/diagrams/single-cycle/datapath.drawio",
+    "source": "Assignment6/Assets/datapath.drawio",
+    "sha256": "bdb610d0db441c4dce047acd60f13866d8ff053bba004a76cfe474f44bead8ee"
+  },
+  {
+    "file": "docs/diagrams/single-cycle/mips.jpg",
+    "source": "Assignment6/Assets/mips.jpg",
+    "sha256": "e76eba7d5737e3b8325b44a851e20cd495d37578a9b8fca3bb0d7ecf57413370"
+  },
+  {
+    "file": "docs/diagrams/single-cycle/mips.drawio",
+    "source": "Assignment6/Assets/mips.drawio",
+    "sha256": "4aede8c2d40abe0afa69071e3c111edac7a0547972a3b2dd544e4393fef32516"
+  },
+  {
+    "file": "docs/diagrams/single-cycle/CU.jpg",
+    "source": "Assignment6/Assets/CU.jpg",
+    "sha256": "04e890f002d88600803c43e4817b7cdfd35fa00082b041fa84c4a49cfbfb1037"
+  },
+  {
+    "file": "docs/diagrams/single-cycle/CU.drawio",
+    "source": "Assignment6/Assets/CU.drawio",
+    "sha256": "f91f7c07e70b2df412af182638ef5dea23e31fc24907ac4ab4c39cb6ea96edd6"
+  },
+  {
+    "file": "docs/diagrams/pipeline/pipeline.jpg",
+    "source": "Assignment7/Assets/BlockDiagrams/pipeline_mips.jpg",
+    "sha256": "e40e0d352cbba699aff20a0fff05e479ccf30e0f1a28776e097a8cfaedfb86f7"
+  },
+  {
+    "file": "docs/diagrams/pipeline/pipeline.drawio",
+    "source": "Assignment7/Assets/BlockDiagrams/pipeline_mips.drawio",
+    "sha256": "87e02a4c17f578399004eedd6c8d331549fc3e2d67daf185b88429e678eb0f32"
+  },
+  {
+    "file": "docs/diagrams/pipeline/pipeline-alternate.drawio",
+    "source": "Assignment7/Assets/BlockDiagrams/pipeline_mips 2.drawio",
+    "sha256": "380a0328ff96241184d1fde84d5bce9e236541c6a811bb9327c8f714fb8dc623"
+  },
+  {
+    "file": "docs/diagrams/soc/soc_top.jpg",
+    "source": "Assignment7/Assets/BlockDiagrams/soc_top.jpg",
+    "sha256": "f3973db2bb01abf6ea6ac4d51bcfad18d6e05c97e877082793e05e05c49b0ada"
+  },
+  {
+    "file": "docs/diagrams/soc/fact_top.jpg",
+    "source": "Assignment7/Assets/BlockDiagrams/fact_top.jpg",
+    "sha256": "b324f343f48077b7366989ed41c133ee3000c2becd7cb16652e009eada275ba5"
+  },
+  {
+    "file": "docs/diagrams/soc/gpio_top.jpg",
+    "source": "Assignment7/Assets/BlockDiagrams/gpio_top.jpg",
+    "sha256": "fa2055b9e60202d84dac1c13be5bb94e97f19d80f4528d60efba774415eaaeb4"
   }
 ]
